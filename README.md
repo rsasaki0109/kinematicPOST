@@ -2,6 +2,13 @@ This program belongs to the Laboratory of Satellite Navigation Engineering at To
 
 This program operates on VS 2010 or later.
 
+## build
+
+```
+cd kinematicPOST/TUMSAT_GNSSpro/src
+make all
+```
+
 ## demo
 
 ```
