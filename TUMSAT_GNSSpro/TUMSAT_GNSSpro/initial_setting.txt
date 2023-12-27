@@ -1,7 +1,7 @@
 Mask_angle    15.0
-Rov_obs       DATA\\sample\\GBQ.obs
-Ref_obs       DATA\\sample\\ref.obs
-Nav_file      DATA\\sample\\ref.nav
+Rov_obs       DATA/sample/GBQ.obs
+Ref_obs       DATA/sample/ref.obs
+Nav_file      DATA/sample/ref.nav
 POSreflat     35.666342230
 POSreflon     139.792210090
 POSrefhgt     59.7350
