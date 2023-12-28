@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 //
-// ‘Î—¬Œ—’x‰„—Ê‚ÌŒvZiSaastamoinen Modelj
+// ï¿½Î—ï¿½ï¿½ï¿½ï¿½xï¿½ï¿½ï¿½Ê‚ÌŒvï¿½Zï¿½iSaastamoinen Modelï¿½j
 //
 ///////////////////////////////////////////////////////////////////////
  
@@ -8,7 +8,7 @@
 #include <math.h>
 #include <string.h>
 #include <fstream>
-#include <process.h>
+// #include <process.h>
 
 #include "global_extern.h"
 
@@ -16,7 +16,7 @@
 
 void calc_tropo(int rcvn)
 {
-	//‘ã•\“I‚È‹CÛğŒ
+	//ï¿½ï¿½\ï¿½Iï¿½È‹Cï¿½Ûï¿½ï¿½ï¿½
 	double ps1=1000.0;
 	double temp=15.0 + 273.16;
 	double ps2=38.03*0.77;
@@ -32,7 +32,7 @@ void calc_tropo(int rcvn)
 	for(k=0;k<SATn[rcvn];k++){
 		j=SVn[rcvn][k];
 		
-		//Saastamoinen model‚ğ—˜—p
+		//Saastamoinen modelï¿½ğ—˜—p
 		if(rcvn==1)
 			tropo_d[rcvn][j] = 0.002277*(1.0+0.0026*cos(2*POSrcvlat[rcvn]*pi/180.0)+0.00028*POSrcvhgt[rcvn])*ps1;
 		else
