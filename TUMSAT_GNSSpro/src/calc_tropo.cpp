@@ -1,6 +1,6 @@
 ///////////////////////////////////////////////////////////////////////
 //
-// �Η����x���ʂ̌v�Z�iSaastamoinen Model�j
+// 対流圏遅延量の計算（Saastamoinen Model）
 //
 ///////////////////////////////////////////////////////////////////////
  
@@ -16,7 +16,7 @@
 
 void calc_tropo(int rcvn)
 {
-	//��\�I�ȋC�ۏ���
+	//代表的な気象条件
 	double ps1=1000.0;
 	double temp=15.0 + 273.16;
 	double ps2=38.03*0.77;
@@ -32,7 +32,7 @@ void calc_tropo(int rcvn)
 	for(k=0;k<SATn[rcvn];k++){
 		j=SVn[rcvn][k];
 		
-		//Saastamoinen model�𗘗p
+		//Saastamoinen modelを利用
 		if(rcvn==1)
 			tropo_d[rcvn][j] = 0.002277*(1.0+0.0026*cos(2*POSrcvlat[rcvn]*pi/180.0)+0.00028*POSrcvhgt[rcvn])*ps1;
 		else
