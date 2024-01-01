@@ -1,2 +1,3 @@
 TUMSAT_GNSSpro/src/*.o
-TUMSAT_GNSSpro/src/kinematicPOST
+TUMSAT_GNSSpro/Debug/*
+.vscode/*

@@ -5,13 +5,13 @@ This program operates on VS 2010 or later.
 ## build
 
 ```
-cd kinematicPOST/TUMSAT_GNSSpro/src
+cd kinematicPOST/TUMSAT_GNSSpro
 make all
 ```
 
 ## demo
 
 ```
-cd kinematicPOST/TUMSAT_GNSSpro/TUMSAT_GNSSpro
-../src/kinematicPOST
+cd TUMSAT_GNSSpro
+./../Debug/kinematicPOST
 ```
