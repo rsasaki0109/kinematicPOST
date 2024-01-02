@@ -12,6 +12,5 @@ make all
 ## demo
 
 ```
-cd TUMSAT_GNSSpro
 ./../Debug/kinematicPOST
 ```
