@@ -86,7 +86,7 @@ void calc_satpos(int rcvn)
 			tk[prn] = tt[prn] - Ephe.toe[prn];
 
 			if(tk[prn]>302400)
-				tk[prn]=tk[prn]-604800;
+				tk[prn]=tk[prn]-604800; // 604800 = 7*24*60*60
 			if(tk[prn]<-302400)
 				tk[prn]=tk[prn]+604800;
 

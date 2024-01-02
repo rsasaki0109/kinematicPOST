@@ -22,7 +22,7 @@ void calc_direction(int rcvn, int iter)
 	double kk = 0.5;
 	double SVx2[RCVN][PRN]={0},SVy2[RCVN][PRN]={0},SVz2[RCVN][PRN]={0};
 
-	double a[6]={0};
+	double a[6]={0}; // 0:lat, 1:lon, 2:x, 3:y, 4:z
 
 	//‹ÂŠpA•ûˆÊŠp‚ğZo‚·‚éŠî€‚Æ‚È‚éˆÊ’u‚ğİ’è
 	if(rcvn==1){//Šî€‹Ç
