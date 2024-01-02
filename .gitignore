@@ -1,0 +1,3 @@
+TUMSAT_GNSSpro/src/*.o
+TUMSAT_GNSSpro/Debug/*
+.vscode/*
