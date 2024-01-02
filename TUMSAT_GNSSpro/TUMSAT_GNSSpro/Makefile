@@ -2,10 +2,10 @@ CXX = g++
 
 CXXFLAGS = -O2 -std=c++11 -Wno-unused-variable -g
 
-TARGET = Debug/kinematicPOST
+TARGET = ../Debug/kinematicPOST
 
-SRC_DIR = src
-BUILD_DIR = Debug
+SRC_DIR = ../src
+BUILD_DIR = ../Debug
 
 SRC_CPP = $(wildcard $(SRC_DIR)/*.cpp)
 SRC_C = $(wildcard $(SRC_DIR)/*.c)
